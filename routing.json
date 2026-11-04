@@ -1,0 +1,29 @@
+{
+  "news": {
+    "provider": "orbio",
+    "model": "perplexity/sonar",
+    "label": "news"
+  },
+  "near_deep": {
+    "provider": "near",
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "label": "NEAR",
+    "max_tokens": 4000
+  },
+  "near_quick": {
+    "provider": "near",
+    "model": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "label": "NEAR",
+    "max_tokens": 1500
+  },
+  "local": {
+    "provider": "ollama",
+    "model": "llama3.1:8b",
+    "label": "local"
+  },
+  "fallback": {
+    "near_fail": "local",
+    "news_fail": "near"
+  },
+  "deep_char_threshold": 120
+}

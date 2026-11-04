@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+requests>=2.31
+python-multipart>=0.0.9
+pypdf>=4.0
+rich>=13.0
+numpy>=1.26
+# Optional local STT (MIC button): faster-whisper, av
+# Optional local LLM path (when PYTH_MOCK is unset): needs Ollama separately

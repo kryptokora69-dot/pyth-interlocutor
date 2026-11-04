@@ -1,0 +1,9 @@
+{
+  "purchases_usd": 0.0,
+  "staking": {
+    "near": 0,
+    "usd_per_100_per_month": 2.0,
+    "start_date": null
+  },
+  "notes": "Hackathon placeholder. Set real values locally; never commit secrets."
+}
